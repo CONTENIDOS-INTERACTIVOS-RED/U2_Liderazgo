@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La Unidad 1 aborda el liderazgo desde una perspectiva integral, enfocándose en teorías, estilos, poder, autoridad, política, cultura organizacional y estrategias para enfrentar crisis. Se estudian estilos como el transformacional y ético, y se destacan habilidades blandas necesarias para liderar eficazmente en entornos cambiantes. Se analizan también la influencia en equipos, la gestión del conflicto y la responsabilidad social. El liderazgo se presenta como clave para la sostenibilidad, resiliencia y transformación organizacional, formando profesionales capaces de guiar con ética, inclusión y visión estratégica hacia metas colectivas.
+              p.descripcion.mb-4 La Unidad 2 del curso de Liderazgo aborda la importancia de la inteligencia emocional, el coaching y el bienestar organizacional como competencias clave para un liderazgo ético y sostenible. Se estudian los roles organizacionales, el factor humano, la gestión de conflictos, el estrés laboral y las estrategias de intervención psicosocial. Se promueve el desarrollo de habilidades blandas en los estudiantes de Administración de Empresas, con enfoque en la empatía, comunicación y liderazgo transformacional, resaltando su impacto en el clima organizacional y en la sostenibilidad empresarial.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

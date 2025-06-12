@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Teorías y estilos de liderazgo',
+    numeroUnidad: '2',
+    tituloUnidad: 'Roles dentro de una organización',
   },
   menuPrincipal: {
     menu: [
@@ -15,29 +15,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Teorías y estilos de liderazgo',
+        titulo: 'Roles organizacionales y factor humano',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Principales teorías del liderazgo: rasgos, conductual, situacional y transformacional',
+            titulo: 'Identificación de roles y responsabilidades',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo:
-              'Estilos de liderazgo: autocrático, democrático, liberal, transaccional y transformador',
+            titulo: 'El factor humano como eje estratégico',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo:
-              'Liderazgo ético: importancia de la integridad en el ejercicio del liderazgo',
-            hash: 't_1_3',
           },
         ],
       },
@@ -45,28 +36,41 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Poder, autoridad y política en el liderazgo',
+        titulo: 'Inteligencia emocional y gestión de conflictos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo:
-              'Conceptos de poder, autoridad y su aplicación en las organizaciones',
+            titulo: 'Componentes de la inteligencia emocional',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Influencia y manejo político en equipos de trabajo  ',
+            titulo: 'Inteligencia emocional en la toma de decisiones ',
             hash: 't_2_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Bienestar organizacional y coaching',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Identificación de factores psicosociales y estrés laboral',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo:
-              'El papel del liderazgo en la construcción de cultura organizacional y ética empresarial',
-            hash: 't_2_3',
+            numero: '3.2',
+            titulo: 'Estrategias de intervención con enfoque en coaching',
+            hash: 't_3_2',
           },
         ],
       },
@@ -208,142 +212,139 @@ export default {
     },
     {
       referencia:
-        'Chico, K., et al. (2023). El liderazgo ético y la responsabilidad social corporativa en el desempeño de las empresas bananeras ecuatorianas. Universidad, Ciencia y Tecnología, 27(119), 8-17.',
-      link: 'https://ve.scielo.org/pdf/uct/v27n119/2542-3401-uct-27-119-8.pdf',
+        'Instituto Nacional de Seguridad y Salud en el Trabajo (INSST). (2024). Riesgos Laborales Psicosociales.',
+      link: 'https://www.insst.es/materias/riesgos/riesgos-psicosociales',
     },
     {
       referencia:
-        'Cruz Soto, L. A. (2013). El concepto de poder en la administración. Contaduría y Administración, 58(4), 39-57.',
-      link: 'https://www.redalyc.org/pdf/395/39528277003.pdf',
-    },
-    {
-      referencia:
-        'Deloitte. (2020). Liderazgo resiliente en tiempos de crisis.',
+        'Instituto Nacional de Seguridad y Salud en el Trabajo (INSST). (2024). Estrés laboral.',
       link:
-        'https://www2.deloitte.com/content/dam/Deloitte/cr/Documents/about-deloitte/media/Deloitte-Liderazgo-resiliente-en-tiempos-de-crisis.pdf',
+        'https://www.insst.es/materias/riesgos/riesgos-psicosociales/estres-laboral',
     },
     {
       referencia:
-        'Universidad Javeriana Cali. (2019). La Responsabilidad Social Empresarial como herramienta para la gestión de conflictos con comunidades rurales.',
+        'El País. (2025, mayo 3). Las bajas laborales por salud mental no paran de crecer: sanidad y educación, los sectores más afectados.',
       link:
-        'https://www.javerianacali.edu.co/sites/default/files/2022-04/La%20Responsabilidad%20Social%20Empresarial%20como%20herramienta%20para%20la%20gesti%C3%B3n%20de%20conflictos%20con%20comunidades%20rurales.pdf',
+        'https://elpais.com/sociedad/2025-05-03/las-bajas-laborales-por-salud-mental-no-paran-de-crecer-sanidad-y-educacion-los-sectores-mas-afectados.html',
     },
     {
       referencia:
-        'Campos, L. G., & Campos, L. G. (2020). Importancia de los estilos de liderazgo: un abordaje de revisión teórica. Apuntes Universitarios, 10(1), 155–174.',
-      link: 'https://www.researchgate.net/publication/343986014',
+        'Superintendencia de Seguridad Social (SUSESO). (2024). Cuestionario de Evaluación de Riesgos Psicosociales en el Trabajo.',
+      link: 'https://www.suseso.cl/606/w3-article-19640.html',
     },
     {
       referencia:
-        'González, J. A., & Rodríguez, M. (2021). Teorías de liderazgo en organizaciones: Clasificación paradigmática y perspectivas de investigación. Revista de Ciencias Sociales, 27(1), 45–60.',
-      link: 'https://www.redalyc.org/articulo.oa?id=10475688008',
+        'Secretaría del Trabajo y Previsión Social (STPS). (2024). Norma Oficial Mexicana NOM-035-STPS-2018, Factores de riesgo psicosocial en el trabajo-Identificación, análisis y prevención.',
+      link:
+        'https://www.gob.mx/stps/articulos/norma-oficial-mexicana-nom-035-stps-2018-factores-de-riesgo-psicosocial-en-el-trabajo-identificacion-analisis-y-prevencion',
     },
     {
       referencia:
-        'Villar-Vargas, M., & Araya-Castillo, L. (2019). Consistencia entre el enfoque de liderazgo y los estilos de liderar: clave para la transformación y el cambio. Pensamiento & Gestión, (46), 1–20.',
-      link: 'https://www.redalyc.org/articulo.oa?id=64664303008',
+        'Fondo de Riesgos Laborales. (2018). Guía técnica general: Promoción, prevención e intervención de los factores psicosociales en el trabajo.',
+      link:
+        'https://fondoriesgoslaborales.gov.co/wp-content/uploads/2018/09/01-Guia-tecnica-general.pdf',
     },
   ],
   glosario: [
     {
       termino: 'Adaptabilidad',
       significado:
-        'Capacidad de ajustarse eficazmente a los cambios en el entorno laboral o social.',
+        'Capacidad de una persona o equipo para ajustarse a cambios en el entorno, condiciones de trabajo o nuevas exigencias organizacionales.',
     },
     {
-      termino: 'Autoridad',
+      termino: 'Asertividad',
       significado:
-        'Poder legítimo conferido a una persona para tomar decisiones y dirigir las acciones de otros.',
+        'Habilidad para expresar ideas, emociones y necesidades de forma clara y respetuosa, sin agresividad ni pasividad.',
     },
     {
-      termino: 'Cohesión',
+      termino: 'Autoconocimiento',
       significado:
-        'Unión y sentido de pertenencia que mantienen a un grupo trabajando de manera armoniosa.',
+        'Proceso mediante el cual una persona identifica y comprende sus emociones, valores, fortalezas y áreas de mejora.',
     },
     {
-      termino: 'Comunicación',
+      termino: 'Clima organizacional',
       significado:
-        'Proceso mediante el cual se transmite información, ideas y sentimientos entre individuos o grupos.',
+        'Percepción colectiva de los empleados sobre el ambiente de trabajo, que influye en la motivación y el desempeño.',
     },
     {
-      termino: 'Conflicto',
+      termino: 'Coaching',
       significado:
-        'Situación en la que dos o más partes tienen intereses, valores o creencias incompatibles.',
+        'Proceso de acompañamiento profesional que busca desarrollar el potencial de una persona o grupo para lograr metas personales u organizacionales.',
     },
     {
-      termino: 'Diversidad',
+      termino: 'Colaboración',
       significado:
-        'Presencia de diferencias individuales en un grupo, ya sea de cultura, género, edad o habilidades.',
+        'Acción de trabajar de forma conjunta con otros para alcanzar un objetivo común, basada en la confianza y el respeto mutuo.',
+    },
+    {
+      termino: 'Comunicación efectiva',
+      significado:
+        'Intercambio de información claro, preciso y oportuno que favorece el entendimiento y reduce los conflictos.',
     },
     {
       termino: 'Empatía',
       significado:
-        'Capacidad para comprender y compartir los sentimientos de otra persona.',
+        'Capacidad de ponerse en el lugar del otro para comprender sus emociones y puntos de vista sin juzgar.',
     },
     {
-      termino: 'Ética',
+      termino: 'Equilibrio emocional',
       significado:
-        'Conjunto de principios y valores que guían el comportamiento correcto y justo de las personas.',
+        'Estado de armonía en la gestión de emociones que permite actuar de forma racional y constructiva ante situaciones desafiantes.',
     },
     {
-      termino: 'Equipo de trabajo',
+      termino: 'Escucha activa',
       significado:
-        'Conjunto de personas que colaboran entre sí para alcanzar objetivos comunes.',
+        'Habilidad para prestar atención plena al interlocutor, demostrando interés y comprensión mediante gestos, preguntas y retroalimentación.',
     },
     {
-      termino: 'Gestión',
+      termino: 'Ética organizacional',
       significado:
-        'Conjunto de actividades destinadas a planificar, organizar, dirigir y controlar los recursos de una organización.',
+        'Conjunto de principios y valores que guían la conducta de una empresa y sus miembros en la toma de decisiones responsables.',
     },
     {
-      termino: 'Influencia',
+      termino: 'Feedback',
       significado:
-        'Capacidad de afectar el pensamiento, las decisiones o las acciones de otros.',
+        'Retroalimentación que se proporciona a una persona sobre su desempeño con el fin de reforzar o corregir comportamientos.',
     },
     {
-      termino: 'Innovación',
+      termino: 'Gestión del cambio',
       significado:
-        'Introducción de nuevas ideas, métodos o productos para mejorar procesos u ofrecer valor agregado.',
+        'Conjunto de acciones y estrategias destinadas a facilitar la adaptación de las personas a transformaciones organizacionales.',
     },
     {
-      termino: 'Liderazgo',
+      termino: 'Inteligencia emocional',
       significado:
-        'Habilidad para guiar, motivar y coordinar a un grupo hacia el logro de metas comunes.',
+        'Capacidad para reconocer, comprender y manejar las propias emociones y las de los demás de manera efectiva.',
+    },
+    {
+      termino: 'Liderazgo transformacional',
+      significado:
+        'Estilo de liderazgo que inspira y motiva a los equipos a desarrollar su potencial y generar cambios positivos.',
     },
     {
       termino: 'Mediación',
       significado:
-        'Proceso de resolución de conflictos en el cual una tercera parte neutral ayuda a encontrar soluciones aceptables para todos.',
+        'Intervención de un tercero neutral para facilitar la resolución de un conflicto entre dos o más partes.',
     },
     {
-      termino: 'Organización',
+      termino: 'Motivación',
       significado:
-        'Sistema estructurado de personas que trabajan en conjunto para alcanzar objetivos definidos.',
-    },
-    {
-      termino: 'Poder',
-      significado:
-        'Capacidad de una persona o grupo para imponer su voluntad sobre otros, con o sin su consentimiento.',
-    },
-    {
-      termino: 'Responsabilidad social',
-      significado:
-        'Compromiso de una organización para actuar de manera ética y contribuir al desarrollo económico sostenible.',
+        'Impulso interno que dirige, mantiene y orienta el comportamiento hacia el logro de objetivos personales o laborales.',
     },
     {
       termino: 'Resiliencia',
       significado:
-        'Habilidad de una organización o individuo para recuperarse frente a situaciones adversas.',
+        'Habilidad para recuperarse frente a la adversidad, adaptarse a los cambios y seguir adelante con actitud positiva.',
+    },
+    {
+      termino: 'Responsabilidad social',
+      significado:
+        'Compromiso de una organización con el bienestar de la sociedad y el medio ambiente más allá del lucro económico.',
     },
     {
       termino: 'Sostenibilidad',
       significado:
-        'Capacidad de satisfacer las necesidades del presente sin comprometer los recursos de futuras generaciones.',
-    },
-    {
-      termino: 'Toma de decisiones',
-      significado:
-        'Proceso mediante el cual se elige entre varias alternativas la opción más adecuada para resolver un problema o alcanzar un objetivo.',
+        'Capacidad de una organización para desarrollar sus actividades generando valor económico, social y ambiental a largo plazo.',
     },
   ],
 }

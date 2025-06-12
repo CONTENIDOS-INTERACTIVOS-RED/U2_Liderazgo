@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La presente unidad aborda los principios fundamentales del liderazgo en el ámbito empresarial, con un enfoque en la sostenibilidad y la responsabilidad social como elementos esenciales en la toma de decisiones.
+      p(data-aos="fade-up").mb-5 La Unidad 2 aborda la importancia de la inteligencia emocional como eje central en el ejercicio del liderazgo dentro de las organizaciones.
 
       .row.justify-content-center
         .col-lg-12.mb-5

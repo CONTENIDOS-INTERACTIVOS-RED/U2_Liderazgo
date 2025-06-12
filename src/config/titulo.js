@@ -1,1 +1,1 @@
-module.exports = 'Teorías y estilos de liderazgo'
+module.exports = 'Roles dentro de una organización'
