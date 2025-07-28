@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Poder, autoridad y política en el liderazgo'")
+    BannerInterno(:subTitulo="'2. Inteligencia emocional y gestión de conflictos'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
       .row.mb-4

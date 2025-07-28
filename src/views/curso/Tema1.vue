@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Teorías y estilos de liderazgo'")
+  BannerInterno(:subTitulo="'1. Roles organizacionales y factor humano'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-4
